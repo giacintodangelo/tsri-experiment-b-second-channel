@@ -1,0 +1,449 @@
+{
+  "C1": {
+    "id": "C1",
+    "name": "Persistenza intenzionale",
+    "structure": "CONTENT",
+    "properties": [
+      "P1_STATE"
+    ],
+    "description": "Persistenza intenzionale Proprietà: P1_STATE. Il tempo come nemico. La persistenza combatte la dissoluzione. C1 si oppone a L2. Direzione del legame: centripeto — attrae e trattiene ciò che viene reso persistente. Agency: attivo. Regolarità L2: opposizione — L'unica primitiva con relazione di opposizione diretta a una regolarità. Tutto termina, ma C1 dice 'non questo, non ancora'. Inibisce DISTRUGGERE.",
+    "isUniversalConnector": false,
+    "valence": 1,
+    "agency": "attivo",
+    "timeForm": "nemico"
+  },
+  "C2": {
+    "id": "C2",
+    "name": "Forma",
+    "structure": "CONTENT",
+    "properties": [
+      "P4_CONSTRAINT"
+    ],
+    "description": "Forma Proprietà: P4_CONSTRAINT. La forma non cambia col tempo — è struttura, non processo. Direzione del legame: saturo — proprietà intrinseca, nessuna direzione. Agency: neutro. Regolarità None: nessuna relazione forte — Vincolo debole — non attiva L4 perché non implica finitezza.",
+    "isUniversalConnector": false,
+    "valence": 0,
+    "agency": "neutro",
+    "timeForm": "atemporale"
+  },
+  "C3": {
+    "id": "C3",
+    "name": "Ritrovabilità",
+    "structure": "CONTENT",
+    "properties": [
+      "P1_STATE"
+    ],
+    "description": "Ritrovabilità Proprietà: P1_STATE. La ritrovabilità non cambia col tempo. Direzione del legame: centrifugo — rende l'artefatto accessibile, lo proietta verso chi lo cerca. Agency: passivo (dal lato dell'artefatto), attivo (dal lato del cercatore). Regolarità L3: superamento — L'artefatto è 'da qualche parte' (separazione) e la ritrovabilità consente di raggiungerlo (propagazione).",
+    "isUniversalConnector": false,
+    "valence": 1,
+    "agency": "passivo (dal lato dell'artefatto), attivo (dal lato del cercatore)",
+    "timeForm": "nemico"
+  },
+  "C4": {
+    "id": "C4",
+    "name": "Accumulazione",
+    "structure": "CONTENT",
+    "properties": [
+      "P2_TRANSFORMATION"
+    ],
+    "description": "Accumulazione Proprietà: P2_TRANSFORMATION. Il corpus si espande nel tempo — l'accumulo è trasformazione nella direzione dell'espansione. Direzione del legame: saturo — proprietà della collezione. Agency: neutro/passivo. Regolarità L1: manifestazione — La collezione muta perché cresce. L'accumulo è trasformazione nella direzione dell'espansione. Regolarità L4: interazione_indiretta — Interagisce con L4 quando lo spazio è finito (content bloat — tensione strutturale tra persistenza e finitezza).",
+    "isUniversalConnector": false,
+    "valence": 0,
+    "agency": "neutro/passivo",
+    "timeForm": "nemico"
+  },
+  "C5": {
+    "id": "C5",
+    "name": "Relazione",
+    "structure": "CONTENT",
+    "properties": [
+      "P3_RELATIONAL_FACT"
+    ],
+    "description": "Relazione Proprietà: P3_RELATIONAL_FACT. La relazione non cambia col tempo. Direzione del legame: bidirezionale — l'artefatto e ciò a cui è connesso. Agency: attivo. Regolarità L3: superamento_laterale — Supera la separazione lateralmente — l'artefatto è connesso ad altri artefatti. Diverso da C3 (centrifugo): C5 è laterale.",
+    "isUniversalConnector": false,
+    "valence": 2,
+    "agency": "attivo",
+    "timeForm": "atemporale"
+  },
+  "I1": {
+    "id": "I1",
+    "name": "Esistenza quantificabile",
+    "structure": "INVENTORY",
+    "properties": [
+      "P1_STATE"
+    ],
+    "description": "Esistenza quantificabile Proprietà: P1_STATE. Il presente sovrascrive il precedente. L'interesse è per lo stato corrente, non per la storia. Direzione del legame: centrifugo — punta a qualcosa nel mondo e ne dice 'quanto'. Agency: attivo (contare è un atto). Regolarità L4: manifestazione — Rende L4 visibile. Se non conti, non sai che la risorsa è scarsa. Contare trasforma la scarsità da fatto ignoto a dato operativo.",
+    "isUniversalConnector": false,
+    "valence": 1,
+    "agency": "attivo (contare è un atto)",
+    "timeForm": "istantanea"
+  },
+  "I2": {
+    "id": "I2",
+    "name": "Finitezza",
+    "structure": "INVENTORY",
+    "properties": [
+      "P4_CONSTRAINT"
+    ],
+    "description": "Finitezza Proprietà: P4_CONSTRAINT. Le risorse si esauriscono nel lungo termine (L1 opera su I2), ma nel breve la finitezza è uno stato stabile. Direzione del legame: saturo — proprietà intrinseca della risorsa. Agency: passivo. Regolarità L4: incarnazione — L'atomo È la legge al livello atomico. La finitezza incarna L4 — la scarsità resa concreta.",
+    "isUniversalConnector": false,
+    "valence": 0,
+    "agency": "passivo",
+    "timeForm": "istantanea"
+  },
+  "I3": {
+    "id": "I3",
+    "name": "Appartenenza al contenitore",
+    "structure": "INVENTORY",
+    "properties": [
+      "P3_RELATIONAL_FACT"
+    ],
+    "description": "Appartenenza al contenitore Proprietà: P3_RELATIONAL_FACT. L'appartenenza cambia — la cosa viene spostata, venduta, assegnata. L1 opera sulla relazione di possesso. Direzione del legame: direzionale — dall'oggetto al contenitore (possesso). Agency: passivo (l'oggetto non sceglie). Regolarità L4: protezione — L'appartenenza (il proprietario) governa l'accesso alla risorsa scarsa.",
+    "isUniversalConnector": false,
+    "valence": 2,
+    "agency": "passivo (l'oggetto non sceglie)",
+    "timeForm": "istantanea"
+  },
+  "I4": {
+    "id": "I4",
+    "name": "Stato",
+    "structure": "INVENTORY",
+    "properties": [
+      "P1_STATE"
+    ],
+    "description": "Stato Proprietà: P1_STATE. Lo stato attuale sovrascrive il precedente. Il tempo come fotografia del presente. Direzione del legame: saturo — proprietà intrinseca (condizione corrente dell'entità). Agency: misto (passivo: il cibo scade; attivo: l'operatore segna 'riservato'). Regolarità L1: sottomissione — Lo stato muta sotto L1 — disponibile→riservato→in manutenzione→dismesso.",
+    "isUniversalConnector": false,
+    "valence": 0,
+    "agency": "misto (passivo: il cibo scade; attivo: l'operatore segna 'riservato')",
+    "timeForm": "istantanea"
+  },
+  "T1": {
+    "id": "T1",
+    "name": "Due parti",
+    "structure": "TRANSACTIONS",
+    "properties": [
+      "P3_RELATIONAL_FACT"
+    ],
+    "description": "Due parti Proprietà: P3_RELATIONAL_FACT. La transazione avviene in un istante ma le conseguenze persistono. Il tempo è un punto — prima e dopo sono stati diversi. Direzione del legame: bivalente — parte A e parte B. Agency: attivo da entrambe le parti. Regolarità L3: presupposizione — Le due parti sono separate (L3) e scambiano per superare la separazione. Regolarità L4: presupposizione — Scambiano perché le risorse sono scarse (L4).",
+    "isUniversalConnector": false,
+    "valence": 2,
+    "agency": "attivo da entrambe le parti",
+    "timeForm": "evento_puntuale"
+  },
+  "T2": {
+    "id": "T2",
+    "name": "Oggetto di trasferimento",
+    "structure": "TRANSACTIONS",
+    "properties": [
+      "P2_TRANSFORMATION"
+    ],
+    "description": "Oggetto di trasferimento Proprietà: P2_TRANSFORMATION. Prima l'oggetto era di A, dopo è di B. Direzione del legame: dall'origine alla destinazione — il flusso del trasferimento. Agency: attivo. Regolarità L3: superamento_attivo — L'oggetto supera la separazione propagandosi da una parte all'altra. Regolarità L4: presupposizione — Il trasferimento è necessario perché la risorsa è finita.",
+    "isUniversalConnector": false,
+    "valence": 1,
+    "agency": "attivo",
+    "timeForm": "evento_puntuale"
+  },
+  "T3": {
+    "id": "T3",
+    "name": "Accordo",
+    "structure": "TRANSACTIONS",
+    "properties": [
+      "P4_CONSTRAINT"
+    ],
+    "description": "Accordo Proprietà: P4_CONSTRAINT. L'accordo si forma in un momento ('il sì') e persiste come vincolo. Direzione del legame: le due parti che concordano — presuppone T1. Agency: attivo da entrambe le parti. Regolarità L5: risoluzione — L'accordo risolve il conflitto di interessi tra compratore e venditore.",
+    "isUniversalConnector": false,
+    "valence": 2,
+    "agency": "attivo da entrambe le parti",
+    "timeForm": "evento_puntuale"
+  },
+  "T4": {
+    "id": "T4",
+    "name": "Irreversibilità",
+    "structure": "TRANSACTIONS",
+    "properties": [
+      "P2_TRANSFORMATION"
+    ],
+    "description": "Irreversibilità Proprietà: P2_TRANSFORMATION. Unidirezionale — prima → dopo, senza ritorno. L'inversione è una nuova transazione, non un undo. La freccia del tempo. Direzione del legame: saturo — proprietà intrinseca della transazione completata. Agency: neutro. Regolarità L1: vincolo_direzionale — L'irreversibilità vincola L1 — il sistema può mutare ma non all'indietro. La mutazione è unidirezionale.",
+    "isUniversalConnector": false,
+    "valence": 0,
+    "agency": "neutro",
+    "timeForm": "evento_puntuale"
+  },
+  "M1": {
+    "id": "M1",
+    "name": "Identità",
+    "structure": "MEMBERSHIP",
+    "properties": [
+      "P1_STATE"
+    ],
+    "description": "Identità Proprietà: P1_STATE. L'identità persiste sotto il cambiamento. Tu sei tu a 5 anni e a 50 anni. L'identità non combatte il tempo (come C1) — lo attraversa senza esserne toccata. Direzione del legame: saturo — proprietà intrinseca dell'entità. Agency: misto (intrinseca: il volto; assegnata: l'username). Regolarità L1: invarianza — Resiste passivamente alla mutabilità senza opporsi alla terminazione. Diverso dall'opposizione di C1 (che resiste attivamente). Regolarità L2: sottomissione — L'identità può terminare (morte, cancellazione).",
+    "isUniversalConnector": false,
+    "valence": 0,
+    "agency": "misto (intrinseca: il volto; assegnata: l'username)",
+    "timeForm": "continuità"
+  },
+  "M2": {
+    "id": "M2",
+    "name": "Legame al gruppo",
+    "structure": "MEMBERSHIP",
+    "properties": [
+      "P3_RELATIONAL_FACT"
+    ],
+    "description": "Legame al gruppo Proprietà: P3_RELATIONAL_FACT. L'ingresso e l'uscita sono eventi puntuali. L'appartenenza stessa è durata. Il confine è un evento, l'appartenenza è uno stato. Direzione del legame: bivalente — l'entità e il gruppo. Dal membro al gruppo.. Agency: misto (scelta, assegnazione, ereditarietà, o emergenza algoritmica). Regolarità L4: indiretto — L'appartenenza a un gruppo è spesso esclusiva o limitata — ma non tutti i gruppi sono scarsi.",
+    "isUniversalConnector": false,
+    "valence": 2,
+    "agency": "misto (scelta, assegnazione, ereditarietà, o emergenza algoritmica)",
+    "timeForm": "continuità"
+  },
+  "M3": {
+    "id": "M3",
+    "name": "Differenziazione",
+    "structure": "MEMBERSHIP",
+    "properties": [
+      "P4_CONSTRAINT"
+    ],
+    "description": "Differenziazione Proprietà: P4_CONSTRAINT. I livelli esistono in permanenza. Le assegnazioni individuali mutano. Direzione del legame: verticale — il criterio di differenziazione implica gerarchia. Agency: attivo (qualcuno definisce i livelli e assegna i ruoli). Regolarità L4: gestione — La differenziazione gestisce la scarsità distribuendo diritti diversi. Regolarità L5: generazione — La differenziazione CREA la tensione: l'utente free vuole le funzioni premium. Relazione opposta a T3 (che risolve L5).",
+    "isUniversalConnector": false,
+    "valence": 1,
+    "agency": "attivo (qualcuno definisce i livelli e assegna i ruoli)",
+    "timeForm": "atemporale"
+  },
+  "M4": {
+    "id": "M4",
+    "name": "Confine dentro/fuori",
+    "structure": "MEMBERSHIP",
+    "properties": [
+      "P3_RELATIONAL_FACT",
+      "P4_CONSTRAINT"
+    ],
+    "description": "Confine dentro/fuori Proprietà: P3_RELATIONAL_FACT, P4_CONSTRAINT. Il confine è permanente come struttura, modulabile come permeabilità. Direzione del legame: centripeto — protegge un interno dall'esterno. Agency: strutturale. Regolarità L3: incarnazione — Il confine separa (separazione tra dentro e fuori). Regolarità L4: incarnazione — L'appartenenza è scarsa (il confine protegge le risorse interne).",
+    "isUniversalConnector": false,
+    "valence": 1,
+    "agency": "strutturale",
+    "timeForm": "continuità"
+  },
+  "W1": {
+    "id": "W1",
+    "name": "Unità di lavoro",
+    "structure": "WORKFLOW",
+    "properties": [
+      "P3_RELATIONAL_FACT"
+    ],
+    "description": "Unità di lavoro Proprietà: P3_RELATIONAL_FACT. L'unità di lavoro ha un inizio (entra nel processo) e una fine (esce processata). Il tempo come percorso. Direzione del legame: universale — accetta qualsiasi entità come input (la connessione dell'entità al processo). Agency: passivo (input). Regolarità L1: sottomissione — L'unità subisce L1 — viene trasformata dal processo.",
+    "isUniversalConnector": true,
+    "valence": 1,
+    "agency": "passivo (input)",
+    "timeForm": "sequenza"
+  },
+  "W2": {
+    "id": "W2",
+    "name": "Stati e transizioni",
+    "structure": "WORKFLOW",
+    "properties": [
+      "P2_TRANSFORMATION",
+      "P3_RELATIONAL_FACT"
+    ],
+    "description": "Stati e transizioni Proprietà: P2_TRANSFORMATION, P3_RELATIONAL_FACT. Il tempo come ordine delle fasi. L'ordine è il dato — prima stato A, poi stato B. Direzione del legame: sequenziale — la sequenza dei cambiamenti con connessioni tra gli stati. Agency: governato (dalle regole W3). Regolarità L1: governance — W2 governa L1 — la mutabilità è strutturata, non casuale. Le transizioni seguono regole.",
+    "isUniversalConnector": false,
+    "valence": "variabile",
+    "agency": "governato (dalle regole W3)",
+    "timeForm": "sequenza"
+  },
+  "W3": {
+    "id": "W3",
+    "name": "Regole",
+    "structure": "WORKFLOW",
+    "properties": [
+      "P4_CONSTRAINT"
+    ],
+    "description": "Regole Proprietà: P4_CONSTRAINT. Le regole esistono in permanenza (finché non vengono modificate). Direzione del legame: universale — attinge condizioni da qualsiasi struttura. Agency: attivo (qualcuno definisce le regole). Regolarità L5: arbitraggio — Le regole arbitrano i conflitti tra esigenze del processo.",
+    "isUniversalConnector": true,
+    "valence": 1,
+    "agency": "attivo (qualcuno definisce le regole)",
+    "timeForm": "atemporale"
+  },
+  "W4": {
+    "id": "W4",
+    "name": "Responsabilità",
+    "structure": "WORKFLOW",
+    "properties": [
+      "P3_RELATIONAL_FACT",
+      "P5_PARTICIPATION"
+    ],
+    "description": "Responsabilità Proprietà: P3_RELATIONAL_FACT, P5_PARTICIPATION. Duratura ma riassegnabile. Direzione del legame: bivalente — la fase/transizione e il responsabile. Connette processo a agente.. Agency: attivo al meta-livello (qualcuno assegna); attivo in esecuzione (il responsabile agisce).",
+    "isUniversalConnector": false,
+    "valence": 2,
+    "agency": "attivo al meta-livello (qualcuno assegna); attivo in esecuzione (il responsabile agisce)",
+    "timeForm": "sequenza"
+  },
+  "S1": {
+    "id": "S1",
+    "name": "Risorsa finita",
+    "structure": "SCHEDULING",
+    "properties": [
+      "P4_CONSTRAINT"
+    ],
+    "description": "Risorsa finita Proprietà: P4_CONSTRAINT. Il tempo come ciò che viene consumato. La scarsità è temporale — 'ne ho pochi adesso'. Direzione del legame: centrifugo — la risorsa si offre per l'allocazione. Agency: misto (la risorsa è finita passivamente, l'allocazione è attiva). Regolarità L4: incarnazione — L4 nella dimensione temporale. In INVENTORY la scarsità è statica. In SCHEDULING la scarsità è temporale.",
+    "isUniversalConnector": false,
+    "valence": 1,
+    "agency": "misto (la risorsa è finita passivamente, l'allocazione è attiva)",
+    "timeForm": "segmento_risorsa"
+  },
+  "S2": {
+    "id": "S2",
+    "name": "Richiedente",
+    "structure": "SCHEDULING",
+    "properties": [
+      "P3_RELATIONAL_FACT",
+      "P5_PARTICIPATION"
+    ],
+    "description": "Richiedente Proprietà: P3_RELATIONAL_FACT, P5_PARTICIPATION. Il richiedente opera sotto L6 — agisce nel presente per un'allocazione nel futuro. Il tempo come proiezione. Direzione del legame: verso la risorsa — connette il richiedente a S1. Agency: attivo (il richiedente chiede — atto intenzionale). Regolarità L4: generazione — Il richiedente genera la domanda che rende la scarsità operativa. Regolarità L5: generazione — Più richiedenti per la stessa risorsa = conflitto. Regolarità L6: compimento — Il richiedente COMPIE L6 — la prenotazione è un atto nel presente per un'allocazione nel futuro.",
+    "isUniversalConnector": false,
+    "valence": 1,
+    "agency": "attivo (il richiedente chiede — atto intenzionale)",
+    "timeForm": "proiezione"
+  },
+  "S3": {
+    "id": "S3",
+    "name": "Slot temporali",
+    "structure": "SCHEDULING",
+    "properties": [
+      "P1_STATE"
+    ],
+    "description": "Slot temporali Proprietà: P1_STATE. Il tempo diviso in blocchi allocabili. Lo slot non è il tempo astratto — è il tempo porzionato in unità assegnabili. Direzione del legame: trivalente — la risorsa (S1), il periodo (il tempo), il richiedente (S2). Nodo di convergenza tridimensionale.. Agency: misto (la struttura degli slot è definita attivamente, l'occupazione è determinata dalla domanda). Regolarità L4: manifestazione — Lo slot è finito. Regolarità L1: sottomissione — Lo slot muta — passa da disponibile a occupato a passato.",
+    "isUniversalConnector": false,
+    "valence": 3,
+    "agency": "misto (la struttura degli slot è definita attivamente, l'occupazione è determinata dalla domanda)",
+    "timeForm": "segmento_risorsa"
+  },
+  "S4": {
+    "id": "S4",
+    "name": "Non-sovrapposizione",
+    "structure": "SCHEDULING",
+    "properties": [
+      "P4_CONSTRAINT"
+    ],
+    "description": "Non-sovrapposizione Proprietà: P4_CONSTRAINT. S4 non HA relazione col tempo — S4 PARLA del tempo. È una proprietà del tempo stesso. Direzione del legame: saturo — proprietà intrinseca dell'allocazione temporale. Agency: nessuno (la non-sovrapposizione non è decisa — è un fatto del mondo). Regolarità L4: incarnazione — L4 applicata al tempo — il tempo è la risorsa fondamentalmente non-moltiplicabile.",
+    "isUniversalConnector": false,
+    "valence": 0,
+    "agency": "nessuno (la non-sovrapposizione non è decisa — è un fatto del mondo)",
+    "timeForm": "segmento_risorsa"
+  },
+  "CO1": {
+    "id": "CO1",
+    "name": "Emittente e destinatario",
+    "structure": "COMMUNICATION",
+    "properties": [
+      "P3_RELATIONAL_FACT"
+    ],
+    "description": "Emittente e destinatario Proprietà: P3_RELATIONAL_FACT. Il messaggio viaggia nel tempo — il canale determina la velocità. Il tempo è il mezzo di propagazione, non il dato né il vincolo. Direzione del legame: bivalente — chi parla e chi ascolta. Agency: attivo (emittente) + passivo/attivo (destinatario). Regolarità L3: attivazione — CO1 è il punto dove L3 si manifesta intenzionalmente. Tre modi di superare L3: cercare (C3), trasferire (T2), comunicare (CO1).",
+    "isUniversalConnector": false,
+    "valence": 2,
+    "agency": "attivo (emittente) + passivo/attivo (destinatario)",
+    "timeForm": "mezzo"
+  },
+  "CO2": {
+    "id": "CO2",
+    "name": "Significato codificato",
+    "structure": "COMMUNICATION",
+    "properties": [
+      "P4_CONSTRAINT"
+    ],
+    "description": "Significato codificato Proprietà: P4_CONSTRAINT. Il codice condiviso deve persistere per funzionare. Direzione del legame: universale — incapsula significato da qualsiasi struttura. Agency: attivo (qualcuno codifica).",
+    "isUniversalConnector": true,
+    "valence": 1,
+    "agency": "attivo (qualcuno codifica)",
+    "timeForm": "mezzo"
+  },
+  "CO3": {
+    "id": "CO3",
+    "name": "Direzionalità",
+    "structure": "COMMUNICATION",
+    "properties": [
+      "P2_TRANSFORMATION"
+    ],
+    "description": "Direzionalità Proprietà: P2_TRANSFORMATION. L'atto di dirigere il messaggio avviene in un momento. Direzione del legame: verso chi — la direzione del messaggio. Agency: attivo. Regolarità L3: superamento — CO3 supera L3 — il messaggio attraversa la separazione.",
+    "isUniversalConnector": false,
+    "valence": 1,
+    "agency": "attivo",
+    "timeForm": "mezzo"
+  },
+  "CO4": {
+    "id": "CO4",
+    "name": "Canale",
+    "structure": "COMMUNICATION",
+    "properties": [
+      "P3_RELATIONAL_FACT"
+    ],
+    "description": "Canale Proprietà: P3_RELATIONAL_FACT. Il canale esiste indipendentemente dal singolo messaggio. L'infrastruttura persiste. Direzione del legame: infrastrutturale — l'infrastruttura comunicativa. Agency: strutturale. Regolarità L3: modulazione — La qualità del canale determina quanto facilmente la separazione è superata.",
+    "isUniversalConnector": false,
+    "valence": 1,
+    "agency": "strutturale",
+    "timeForm": "mezzo"
+  },
+  "N1": {
+    "id": "N1",
+    "name": "Emissione involontaria",
+    "structure": "TELEMETRY",
+    "properties": [
+      "P2_TRANSFORMATION"
+    ],
+    "description": "Emissione involontaria Proprietà: P2_TRANSFORMATION. L'emissione e permanente — condizione di background continua. Direzione del legame: relativamente saturo — descrive la sorgente senza cercare legami esterni. Agency: passivo.",
+    "isUniversalConnector": false,
+    "valence": 0,
+    "agency": "passivo",
+    "timeForm": "dato"
+  },
+  "N2": {
+    "id": "N2",
+    "name": "Traccia temporale costitutiva",
+    "structure": "TELEMETRY",
+    "properties": [
+      "P1_STATE",
+      "P2_TRANSFORMATION"
+    ],
+    "description": "Traccia temporale costitutiva Proprietà: P1_STATE, P2_TRANSFORMATION. Il tempo è DENTRO il dato. Se cambio il timestamp, il dato cambia significato. L'unico atomo dove il tempo è interno, non esterno. Direzione del legame: il segnale da datare — quasi universale perché il tempo è universale. Agency: passivo nell'emissione, attivo nella cattura. Regolarità L1: documentazione — N2 documenta L1 — registra il fatto che le cose cambiano. Regolarità L6: alimentazione — N2 fornisce la materia prima per L6. Senza serie storica, nessuna proiezione possibile.",
+    "isUniversalConnector": false,
+    "valence": 1,
+    "agency": "passivo nell'emissione, attivo nella cattura",
+    "timeForm": "dato"
+  },
+  "N3": {
+    "id": "N3",
+    "name": "Indicazione indiretta",
+    "structure": "TELEMETRY",
+    "properties": [
+      "P4_CONSTRAINT"
+    ],
+    "description": "Indicazione indiretta Proprietà: P4_CONSTRAINT. L'indicazione è atemporale. Il timing è fornito da N2. Direzione del legame: il sistema indicato — il punto di legame più universale di tutti i 34 atomi. Agency: split (passivo dal lato del segnale, attivo dal lato dell'osservatore). Regolarità ALL: manifestazione_universale_emergente — N3 rende tutte le regolarità leggibili — non direttamente, ma perché indica sistemi governati dalle regolarità. La manifestazione universale è EMERGENTE dalla reattività universale, non intrinseca.",
+    "isUniversalConnector": true,
+    "valence": 1,
+    "agency": "split (passivo dal lato del segnale, attivo dal lato dell'osservatore)",
+    "timeForm": "atemporale"
+  },
+  "N4": {
+    "id": "N4",
+    "name": "Pattern per accumulazione",
+    "structure": "TELEMETRY",
+    "properties": [
+      "P2_TRANSFORMATION"
+    ],
+    "description": "Pattern per accumulazione Proprietà: P2_TRANSFORMATION. N4 solidifica il tempo in serie. Trasforma il flusso temporale in struttura dati persistente. Direzione opposta a N2: N2 va dal dato al tempo (ancoraggio), N4 va dal tempo al dato (solidificazione). Direzione del legame: i dati da accumulare. Agency: passivo nel meccanismo, attivo nella configurazione. Regolarità L1: cattura_sistematica — N4 cattura L1 allo stato puro: ogni cambiamento produce un nuovo dato. N2 è il singolo fotogramma. N4 è il film.",
+    "isUniversalConnector": false,
+    "valence": 1,
+    "agency": "passivo nel meccanismo, attivo nella configurazione",
+    "timeForm": "cristallo"
+  },
+  "N5": {
+    "id": "N5",
+    "name": "Asimmetria sorgente-osservatore",
+    "structure": "TELEMETRY",
+    "properties": [
+      "P3_RELATIONAL_FACT"
+    ],
+    "description": "Asimmetria sorgente-osservatore Proprietà: P3_RELATIONAL_FACT. L'asimmetria persiste finché la sorgente non diventa consapevole. Durata indeterminata. Direzione del legame: bivalente — la sorgente e l'osservatore. INSTABILE — l'isomerizzazione verso CO1 è possibile.. Agency: split asimmetrico (l'osservatore è attivo, la sorgente è passiva).",
+    "isUniversalConnector": false,
+    "valence": 2,
+    "agency": "split asimmetrico (l'osservatore è attivo, la sorgente è passiva)",
+    "timeForm": "dato"
+  }
+}

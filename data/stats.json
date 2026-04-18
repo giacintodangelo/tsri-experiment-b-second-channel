@@ -1,0 +1,22 @@
+{
+  "n_primitives": 34,
+  "n_pairs_total": 990,
+  "n_positive": 83,
+  "n_negative": 907,
+  "imbalance_ratio": "1:10.93",
+  "universal_connectors_excluded_from_source": [
+    "CO2",
+    "N3",
+    "W1",
+    "W3"
+  ],
+  "positive_by_shared_properties": {
+    "0": 43,
+    "1": 39,
+    "2": 1
+  },
+  "cross_structure_attractions": 60,
+  "intra_structure_attractions": 23,
+  "cross_property_count_in_positive": 43,
+  "cross_property_ratio_in_positive": 0.5180722891566265
+}

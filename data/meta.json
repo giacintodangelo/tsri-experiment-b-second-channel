@@ -1,0 +1,68 @@
+{
+  "n_pairs": 990,
+  "n_primitives": 34,
+  "X_P_shape": [
+    990,
+    33
+  ],
+  "X_PPhi_shape": [
+    990,
+    802
+  ],
+  "n_positive": 83,
+  "n_negative": 907,
+  "properties_order": [
+    "P1_STATE",
+    "P2_TRANSFORMATION",
+    "P3_RELATIONAL_FACT",
+    "P4_CONSTRAINT",
+    "P5_PARTICIPATION"
+  ],
+  "structures_order": [
+    "CONTENT",
+    "INVENTORY",
+    "TRANSACTIONS",
+    "MEMBERSHIP",
+    "WORKFLOW",
+    "SCHEDULING",
+    "COMMUNICATION",
+    "TELEMETRY"
+  ],
+  "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_dim": 384,
+  "feature_names_P": [
+    "a_prop_P1_STATE",
+    "a_prop_P2_TRANSFORMATION",
+    "a_prop_P3_RELATIONAL_FACT",
+    "a_prop_P4_CONSTRAINT",
+    "a_prop_P5_PARTICIPATION",
+    "b_prop_P1_STATE",
+    "b_prop_P2_TRANSFORMATION",
+    "b_prop_P3_RELATIONAL_FACT",
+    "b_prop_P4_CONSTRAINT",
+    "b_prop_P5_PARTICIPATION",
+    "a_struct_CONTENT",
+    "a_struct_INVENTORY",
+    "a_struct_TRANSACTIONS",
+    "a_struct_MEMBERSHIP",
+    "a_struct_WORKFLOW",
+    "a_struct_SCHEDULING",
+    "a_struct_COMMUNICATION",
+    "a_struct_TELEMETRY",
+    "b_struct_CONTENT",
+    "b_struct_INVENTORY",
+    "b_struct_TRANSACTIONS",
+    "b_struct_MEMBERSHIP",
+    "b_struct_WORKFLOW",
+    "b_struct_SCHEDULING",
+    "b_struct_COMMUNICATION",
+    "b_struct_TELEMETRY",
+    "shared_P1_STATE",
+    "shared_P2_TRANSFORMATION",
+    "shared_P3_RELATIONAL_FACT",
+    "shared_P4_CONSTRAINT",
+    "shared_P5_PARTICIPATION",
+    "n_shared_properties",
+    "same_structure"
+  ]
+}
